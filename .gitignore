@@ -6,3 +6,12 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+node_modules
+.vscode
+.idea
+.env
+.playwright
+test-results
+npm-debug.log
+.DS_Store

@@ -13,7 +13,7 @@ Testes E2E com Playwright + TypeScript para o desafio WeFit (WeMovies) de Yugou 
 
 ## Instalação
 ```bash
-git clone <SEU_REPO_URL>
+git clone <"https://github.com/YouGo22/wefit-playwright-tests">
 cd wemovies-e2e
 npm install
 npm run install:browsers  # instala navegadores do Playwright

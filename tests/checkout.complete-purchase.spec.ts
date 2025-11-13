@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Checkout -> complete purchase', () => {
+test.describe('Checkout -> completar compra', () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto('http://wemovies-qa.s3-website.us-east-2.amazonaws.com');

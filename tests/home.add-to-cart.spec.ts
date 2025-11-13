@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Home -> Add to cart', () => {
+test.describe('Home -> Adicionar ao carrinho', () => {
   test('deve adicionar um filme ao carrinho e verificar subtotal', async ({ page }) => {
     await page.goto('http://wemovies-qa.s3-website.us-east-2.amazonaws.com', { timeout: 30000 });
 
