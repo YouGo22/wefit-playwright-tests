@@ -6,7 +6,10 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {},
+  "scripts": { 
+    "test:e2e":"playwright test",
+    "test:e2e:ui" : "playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
